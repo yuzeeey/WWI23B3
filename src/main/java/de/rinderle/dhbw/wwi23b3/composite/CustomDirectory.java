@@ -3,12 +3,11 @@ package de.rinderle.dhbw.wwi23b3.composite;
 import java.util.ArrayList;
 import java.util.List;
 
-// Composite
-class Directory implements FileSystemComponent {
+public class CustomDirectory implements FileSystemComponent {
     private String name;
     private List<FileSystemComponent> components = new ArrayList<>();
 
-    public Directory(String name) {
+    public CustomDirectory(String name) {
         this.name = name;
     }
 
@@ -21,11 +20,11 @@ class Directory implements FileSystemComponent {
     }
 
     @Override
-    public String showDetails() {
-        StringBuilder details = new StringBuilder("Directory: " + name + "\n");
+    public int getSize() {
+        int result = 0;
         for (FileSystemComponent component : components) {
-            details.append(component.showDetails()).append("\n");
+            result += component.getSize();
         }
-        return details.toString().trim();
+        return result;
     }
 }
