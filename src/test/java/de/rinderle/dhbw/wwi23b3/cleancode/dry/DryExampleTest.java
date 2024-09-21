@@ -1,4 +1,4 @@
-package de.rinderle.dhbw.wwi23b3.dry;
+package de.rinderle.dhbw.wwi23b3.cleancode.dry;
 
 import org.junit.jupiter.api.Test;
 

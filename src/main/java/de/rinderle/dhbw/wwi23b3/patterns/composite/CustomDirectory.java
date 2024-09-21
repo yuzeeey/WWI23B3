@@ -1,4 +1,4 @@
-package de.rinderle.dhbw.wwi23b3.composite;
+package de.rinderle.dhbw.wwi23b3.patterns.composite;
 
 import java.util.ArrayList;
 import java.util.List;

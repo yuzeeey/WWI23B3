@@ -1,4 +1,4 @@
-package de.rinderle.dhbw.wwi23b3.srp;
+package de.rinderle.dhbw.wwi23b3.cleancode.srp;
 
 class Employee {
     private final String name;

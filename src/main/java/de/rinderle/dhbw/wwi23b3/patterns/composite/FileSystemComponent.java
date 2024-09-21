@@ -1,4 +1,4 @@
-package de.rinderle.dhbw.wwi23b3.composite;
+package de.rinderle.dhbw.wwi23b3.patterns.composite;
 
 public interface FileSystemComponent {
 

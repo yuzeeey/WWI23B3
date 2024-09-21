@@ -1,4 +1,4 @@
-package de.rinderle.dhbw.wwi23b3.demeter;
+package de.rinderle.dhbw.wwi23b3.cleancode.demeter;
 
 import org.junit.jupiter.api.Test;
 

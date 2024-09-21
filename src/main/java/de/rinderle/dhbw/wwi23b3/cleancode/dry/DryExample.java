@@ -1,4 +1,4 @@
-package de.rinderle.dhbw.wwi23b3.dry;
+package de.rinderle.dhbw.wwi23b3.cleancode.dry;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

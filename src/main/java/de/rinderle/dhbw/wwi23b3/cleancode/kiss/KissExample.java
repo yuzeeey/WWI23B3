@@ -1,4 +1,4 @@
-package de.rinderle.dhbw.wwi23b3.kiss;
+package de.rinderle.dhbw.wwi23b3.cleancode.kiss;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
